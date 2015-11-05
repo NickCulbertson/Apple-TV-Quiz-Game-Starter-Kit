@@ -15,6 +15,8 @@
 
 @end
 
+#define TotalQuestions 15
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -48,7 +50,7 @@
     NextButton.enabled=YES;
     TopRightLabel.text=[NSString stringWithFormat:@"Score - %d of %d",ScoreCount,QuestionCount+1];
     [self UpdateView];
-    if(QuestionCount==14){
+    if(QuestionCount==TotalQuestions-1){
         [NextButton setTitle:@"Play Again" forState:UIControlStateNormal];
     }
     if(AnswerCount==1){
@@ -169,13 +171,13 @@
     
     QuestionCount++;
 
-    if(QuestionCount>14){
+    if(QuestionCount>TotalQuestions-1){
         QuestionCount=0;
         ScoreCount=0;
     }
     
     TopRightLabel.text=[NSString stringWithFormat:@"Score - %d of %d",ScoreCount,QuestionCount];
-    TopLeftLabel.text=[NSString stringWithFormat:@"Question - %d of %d",QuestionCount+1,15];
+    TopLeftLabel.text=[NSString stringWithFormat:@"Question - %d of %d",QuestionCount+1,TotalQuestions];
 
     switch (QuestionCount)  {
             
