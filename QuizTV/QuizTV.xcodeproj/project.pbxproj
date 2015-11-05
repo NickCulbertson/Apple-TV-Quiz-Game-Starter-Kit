@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9BA0B21BEAEC11008CCC72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BA0B11BEAEC11008CCC72 /* main.m */; };
+		5A9BA0B51BEAEC11008CCC72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BA0B41BEAEC11008CCC72 /* AppDelegate.m */; };
+		5A9BA0B81BEAEC11008CCC72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BA0B71BEAEC11008CCC72 /* ViewController.m */; };
+		5A9BA0BB1BEAEC11008CCC72 /* QuizTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BA0B91BEAEC11008CCC72 /* QuizTV.xcdatamodeld */; };
+		5A9BA0BE1BEAEC11008CCC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BA0BC1BEAEC11008CCC72 /* Main.storyboard */; };
+		5A9BA0C01BEAEC11008CCC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BA0BF1BEAEC11008CCC72 /* Assets.xcassets */; };
+		5A9BA0CB1BEAEC11008CCC72 /* QuizTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BA0CA1BEAEC11008CCC72 /* QuizTVTests.m */; };
+		5A9BA0D61BEAEC11008CCC72 /* QuizTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BA0D51BEAEC11008CCC72 /* QuizTVUITests.m */; };
+		5A9BA1251BEB0A35008CCC72 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BA1221BEB0A35008CCC72 /* blue.png */; };
+		5A9BA1261BEB0A35008CCC72 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BA1231BEB0A35008CCC72 /* green.png */; };
+		5A9BA1271BEB0A35008CCC72 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BA1241BEB0A35008CCC72 /* red.png */; };
+		5A9BA1291BEB0ABA008CCC72 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BA1281BEB0ABA008CCC72 /* gray.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9BA0C71BEAEC11008CCC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9BA0A51BEAEC11008CCC72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9BA0AC1BEAEC11008CCC72;
+			remoteInfo = QuizTV;
+		};
+		5A9BA0D21BEAEC11008CCC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9BA0A51BEAEC11008CCC72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9BA0AC1BEAEC11008CCC72;
+			remoteInfo = QuizTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A9BA0AD1BEAEC11008CCC72 /* QuizTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9BA0B11BEAEC11008CCC72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A9BA0B31BEAEC11008CCC72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A9BA0B41BEAEC11008CCC72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A9BA0B61BEAEC11008CCC72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A9BA0B71BEAEC11008CCC72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A9BA0BA1BEAEC11008CCC72 /* QuizTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuizTV.xcdatamodel; sourceTree = "<group>"; };
+		5A9BA0BD1BEAEC11008CCC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A9BA0BF1BEAEC11008CCC72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A9BA0C11BEAEC11008CCC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9BA0C61BEAEC11008CCC72 /* QuizTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9BA0CA1BEAEC11008CCC72 /* QuizTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTVTests.m; sourceTree = "<group>"; };
+		5A9BA0CC1BEAEC11008CCC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9BA0D11BEAEC11008CCC72 /* QuizTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9BA0D51BEAEC11008CCC72 /* QuizTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTVUITests.m; sourceTree = "<group>"; };
+		5A9BA0D71BEAEC11008CCC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9BA1221BEB0A35008CCC72 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		5A9BA1231BEB0A35008CCC72 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		5A9BA1241BEB0A35008CCC72 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		5A9BA1281BEB0ABA008CCC72 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9BA0AA1BEAEC11008CCC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BA0C31BEAEC11008CCC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BA0CE1BEAEC11008CCC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9BA0A41BEAEC11008CCC72 = {
+			isa = PBXGroup;
+			children = (
+				5A9BA0AF1BEAEC11008CCC72 /* QuizTV */,
+				5A9BA0C91BEAEC11008CCC72 /* QuizTVTests */,
+				5A9BA0D41BEAEC11008CCC72 /* QuizTVUITests */,
+				5A9BA0AE1BEAEC11008CCC72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9BA0AE1BEAEC11008CCC72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BA0AD1BEAEC11008CCC72 /* QuizTV.app */,
+				5A9BA0C61BEAEC11008CCC72 /* QuizTVTests.xctest */,
+				5A9BA0D11BEAEC11008CCC72 /* QuizTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9BA0AF1BEAEC11008CCC72 /* QuizTV */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BA0B31BEAEC11008CCC72 /* AppDelegate.h */,
+				5A9BA0B41BEAEC11008CCC72 /* AppDelegate.m */,
+				5A9BA0B61BEAEC11008CCC72 /* ViewController.h */,
+				5A9BA0B71BEAEC11008CCC72 /* ViewController.m */,
+				5A9BA1221BEB0A35008CCC72 /* blue.png */,
+				5A9BA1231BEB0A35008CCC72 /* green.png */,
+				5A9BA1241BEB0A35008CCC72 /* red.png */,
+				5A9BA1281BEB0ABA008CCC72 /* gray.png */,
+				5A9BA0BC1BEAEC11008CCC72 /* Main.storyboard */,
+				5A9BA0BF1BEAEC11008CCC72 /* Assets.xcassets */,
+				5A9BA0C11BEAEC11008CCC72 /* Info.plist */,
+				5A9BA0B91BEAEC11008CCC72 /* QuizTV.xcdatamodeld */,
+				5A9BA0B01BEAEC11008CCC72 /* Supporting Files */,
+			);
+			path = QuizTV;
+			sourceTree = "<group>";
+		};
+		5A9BA0B01BEAEC11008CCC72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BA0B11BEAEC11008CCC72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A9BA0C91BEAEC11008CCC72 /* QuizTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BA0CA1BEAEC11008CCC72 /* QuizTVTests.m */,
+				5A9BA0CC1BEAEC11008CCC72 /* Info.plist */,
+			);
+			path = QuizTVTests;
+			sourceTree = "<group>";
+		};
+		5A9BA0D41BEAEC11008CCC72 /* QuizTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BA0D51BEAEC11008CCC72 /* QuizTVUITests.m */,
+				5A9BA0D71BEAEC11008CCC72 /* Info.plist */,
+			);
+			path = QuizTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A9BA0AC1BEAEC11008CCC72 /* QuizTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9BA0DA1BEAEC11008CCC72 /* Build configuration list for PBXNativeTarget "QuizTV" */;
+			buildPhases = (
+				5A9BA0A91BEAEC11008CCC72 /* Sources */,
+				5A9BA0AA1BEAEC11008CCC72 /* Frameworks */,
+				5A9BA0AB1BEAEC11008CCC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizTV;
+			productName = QuizTV;
+			productReference = 5A9BA0AD1BEAEC11008CCC72 /* QuizTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A9BA0C51BEAEC11008CCC72 /* QuizTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9BA0DD1BEAEC11008CCC72 /* Build configuration list for PBXNativeTarget "QuizTVTests" */;
+			buildPhases = (
+				5A9BA0C21BEAEC11008CCC72 /* Sources */,
+				5A9BA0C31BEAEC11008CCC72 /* Frameworks */,
+				5A9BA0C41BEAEC11008CCC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9BA0C81BEAEC11008CCC72 /* PBXTargetDependency */,
+			);
+			name = QuizTVTests;
+			productName = QuizTVTests;
+			productReference = 5A9BA0C61BEAEC11008CCC72 /* QuizTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A9BA0D01BEAEC11008CCC72 /* QuizTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9BA0E01BEAEC11008CCC72 /* Build configuration list for PBXNativeTarget "QuizTVUITests" */;
+			buildPhases = (
+				5A9BA0CD1BEAEC11008CCC72 /* Sources */,
+				5A9BA0CE1BEAEC11008CCC72 /* Frameworks */,
+				5A9BA0CF1BEAEC11008CCC72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9BA0D31BEAEC11008CCC72 /* PBXTargetDependency */,
+			);
+			name = QuizTVUITests;
+			productName = QuizTVUITests;
+			productReference = 5A9BA0D11BEAEC11008CCC72 /* QuizTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9BA0A51BEAEC11008CCC72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nick Culbertson";
+				TargetAttributes = {
+					5A9BA0AC1BEAEC11008CCC72 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					5A9BA0C51BEAEC11008CCC72 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5A9BA0AC1BEAEC11008CCC72;
+					};
+					5A9BA0D01BEAEC11008CCC72 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5A9BA0AC1BEAEC11008CCC72;
+					};
+				};
+			};
+			buildConfigurationList = 5A9BA0A81BEAEC11008CCC72 /* Build configuration list for PBXProject "QuizTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A9BA0A41BEAEC11008CCC72;
+			productRefGroup = 5A9BA0AE1BEAEC11008CCC72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A9BA0AC1BEAEC11008CCC72 /* QuizTV */,
+				5A9BA0C51BEAEC11008CCC72 /* QuizTVTests */,
+				5A9BA0D01BEAEC11008CCC72 /* QuizTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9BA0AB1BEAEC11008CCC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9BA0C01BEAEC11008CCC72 /* Assets.xcassets in Resources */,
+				5A9BA1261BEB0A35008CCC72 /* green.png in Resources */,
+				5A9BA1291BEB0ABA008CCC72 /* gray.png in Resources */,
+				5A9BA0BE1BEAEC11008CCC72 /* Main.storyboard in Resources */,
+				5A9BA1271BEB0A35008CCC72 /* red.png in Resources */,
+				5A9BA1251BEB0A35008CCC72 /* blue.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BA0C41BEAEC11008CCC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BA0CF1BEAEC11008CCC72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9BA0A91BEAEC11008CCC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9BA0B81BEAEC11008CCC72 /* ViewController.m in Sources */,
+				5A9BA0B51BEAEC11008CCC72 /* AppDelegate.m in Sources */,
+				5A9BA0BB1BEAEC11008CCC72 /* QuizTV.xcdatamodeld in Sources */,
+				5A9BA0B21BEAEC11008CCC72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BA0C21BEAEC11008CCC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9BA0CB1BEAEC11008CCC72 /* QuizTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9BA0CD1BEAEC11008CCC72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9BA0D61BEAEC11008CCC72 /* QuizTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9BA0C81BEAEC11008CCC72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9BA0AC1BEAEC11008CCC72 /* QuizTV */;
+			targetProxy = 5A9BA0C71BEAEC11008CCC72 /* PBXContainerItemProxy */;
+		};
+		5A9BA0D31BEAEC11008CCC72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9BA0AC1BEAEC11008CCC72 /* QuizTV */;
+			targetProxy = 5A9BA0D21BEAEC11008CCC72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A9BA0BC1BEAEC11008CCC72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9BA0BD1BEAEC11008CCC72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A9BA0D81BEAEC11008CCC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		5A9BA0D91BEAEC11008CCC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A9BA0DB1BEAEC11008CCC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = QuizTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadCalfApps.QuizTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A9BA0DC1BEAEC11008CCC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = QuizTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadCalfApps.QuizTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A9BA0DE1BEAEC11008CCC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuizTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadCalfApps.QuizTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizTV.app/QuizTV";
+			};
+			name = Debug;
+		};
+		5A9BA0DF1BEAEC11008CCC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuizTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadCalfApps.QuizTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizTV.app/QuizTV";
+			};
+			name = Release;
+		};
+		5A9BA0E11BEAEC11008CCC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuizTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadCalfApps.QuizTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuizTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5A9BA0E21BEAEC11008CCC72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuizTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadCalfApps.QuizTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuizTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9BA0A81BEAEC11008CCC72 /* Build configuration list for PBXProject "QuizTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9BA0D81BEAEC11008CCC72 /* Debug */,
+				5A9BA0D91BEAEC11008CCC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9BA0DA1BEAEC11008CCC72 /* Build configuration list for PBXNativeTarget "QuizTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9BA0DB1BEAEC11008CCC72 /* Debug */,
+				5A9BA0DC1BEAEC11008CCC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9BA0DD1BEAEC11008CCC72 /* Build configuration list for PBXNativeTarget "QuizTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9BA0DE1BEAEC11008CCC72 /* Debug */,
+				5A9BA0DF1BEAEC11008CCC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9BA0E01BEAEC11008CCC72 /* Build configuration list for PBXNativeTarget "QuizTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9BA0E11BEAEC11008CCC72 /* Debug */,
+				5A9BA0E21BEAEC11008CCC72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A9BA0B91BEAEC11008CCC72 /* QuizTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A9BA0BA1BEAEC11008CCC72 /* QuizTV.xcdatamodel */,
+			);
+			currentVersion = 5A9BA0BA1BEAEC11008CCC72 /* QuizTV.xcdatamodel */;
+			path = QuizTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A9BA0A51BEAEC11008CCC72 /* Project object */;
+}
